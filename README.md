@@ -36,12 +36,13 @@ http://www.colorzilla.com/gradient-editor/
 
 ## Jquery
 Make sure to include this at the end of the body area before you started using owl carousel
-'''
+```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-'''
+```
 
 ## Owl Carousel
 https://owlcarousel2.github.io/OwlCarousel2/
+
 To use this download the source code & copy owl.carousel.min.js that is located in dist > owl.carousel.min.js  to your project js folder.
 
 Follow the steps mentioned here:
