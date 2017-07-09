@@ -1,7 +1,6 @@
 # frontend-guide
 learning material for website front end
 ==================================================
-Resource List
 
 # Bootsrap
 http://getbootstrap.com/
@@ -49,3 +48,14 @@ Follow the steps mentioned here:
 https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html
 
 Modify CSS as per your design styling needs
+
+# Other Learning Resource
+## Learn HTML, CSS
+https://www.w3schools.com/html/
+
+## Video Tutorial for Bootstrap
+https://www.youtube.com/watch?v=no-Ntkc836w
+
+## Adobe Dreamweaver CC, How to specify connection to the remote server
+https://helpx.adobe.com/dreamweaver/using/connect-remote-server.html
+
