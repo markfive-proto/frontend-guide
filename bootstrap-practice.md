@@ -1,8 +1,9 @@
-# Practice - Using Bootstrap Framework & basics you should know
+# Practice
+## Using Bootstrap Framework & basics you should know
 *Please use bootstrap version 3.3 for this practice!*
 http://getbootstrap.com/
 
-Students are required to finish task 1 - 4 & show me the working files on 6th October 2017.
+#Students are required to finish task 1 - 4 & show me the working files on 6th October 2017.
 
 ## 1. Include bootstrap in your project/index.html file.
 https://getbootstrap.com/docs/3.3/getting-started/
