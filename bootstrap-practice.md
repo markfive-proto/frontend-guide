@@ -39,5 +39,7 @@ Have a class name that is exactly the same with 1 of the class used in bootstrap
 So how do we have our own attributes overwrite the existing attributes that has been defined in the bootstrap framework?
 eg. 
 Try changing this button to a different color in your css file:
+```
 <!-- Standard button -->
 <button type="button" class="btn btn-default">Default</button>
+```
