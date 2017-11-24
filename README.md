@@ -1,12 +1,8 @@
-
-
-test commit
-
 # frontend-guide
 learning material for website front end
 ==================================================
 
-# Bootsrap
+# Bootstrap
 http://getbootstrap.com/
 
 ## How to use Bootstrap in your project 
@@ -23,6 +19,15 @@ Include these in the head tag of your html file:
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 ```
+
+# Javascript Functions
+
+## Jquery
+Make sure to include this at the end of the body area before you started using owl carousel
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+```
+
 ## Bootstrap basics you should know
 ### Grid System
 http://getbootstrap.com/css/#grid-example-basic
@@ -34,14 +39,6 @@ http://getbootstrap.com/components/#navbar
 https://adam-marsden.co.uk/css-cheat-sheet/
 ## Gradient Generator
 http://www.colorzilla.com/gradient-editor/
-
-# Javascript Functions
-
-## Jquery
-Make sure to include this at the end of the body area before you started using owl carousel
-```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-```
 
 ## Owl Carousel
 https://owlcarousel2.github.io/OwlCarousel2/
