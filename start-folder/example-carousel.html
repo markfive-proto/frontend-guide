@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carousel Demo</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Start your html content here -->
+
+    <section class="container-fluid" style="padding-bottom:100px">
+        <div class="full-width-slider owl-carousel owl-theme">
+            <div class="item">
+                <img src="http://placehold.it/1280x500" alt="Owl Image" />
+            </div>
+            <div class="item">
+                <img src="http://placehold.it/1280x500" alt="Owl Image" />
+            </div>
+            <div class="item">
+                <img src="http://placehold.it/1280x500" alt="Owl Image" />
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="col-md-6">
+            <img src="http://placehold.it/400x400" alt="Owl Image" />
+        </div>
+        <div class="col-md-6">
+            <h1>Headline of this section</h1>
+            <h4>Sub headline of this section</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio amet veniam tenetur voluptatum autem, nisi molestiae maxime ab alias ducimus beatae aut cumque laborum temporibus rerum, delectus asperiores accusantium praesentium. Nesciunt velit
+                ea beatae. Laudantium reprehenderit debitis velit et! Dignissimos placeat rem qui. Similique officiis fugit velit. Sequi incidunt saepe minus, reiciendis nulla pariatur placeat consequuntur vero ut ad illo! Fugit, voluptas. Similique atque
+                nisi id! Quibusdam suscipit debitis ad provident iure doloribus accusantium, cumque ipsam minima nostrum voluptatibus quis beatae sit dolores error, ullam hic quasi, sed illo eum? Ducimus consequuntur expedita recusandae dolore. Maxime
+                odio fugit, modi cumque magnam quam incidunt nulla ipsa dicta laudantium rerum quibusdam reiciendis. Magnam numquam velit facilis fugit culpa doloribus iusto, ratione tempore? Enim ex dolorem, tenetur consequuntur, aspernatur possimus
+                nostrum natus eum earum at quas, blanditiis esse nihil quo necessitatibus? Sint facilis magni commodi debitis distinctio maxime veritatis porro consectetur dolore perferendis!</p>
+        </div>
+    </section>
+
+    <section class="container" style="padding: 50px 0; background: #fff">
+        <div class="default-slider owl-carousel owl-theme">
+            <div class="item">
+                <img src="http://placehold.it/200x200" alt="Owl Image" />
+            </div>
+            <div class="item">
+                <img src="http://placehold.it/200x200" alt="Owl Image" />
+            </div>
+            <div class="item">
+                <img src="http://placehold.it/200x200" alt="Owl Image" />
+            </div>
+            <div class="item">
+                <img src="http://placehold.it/200x200" alt="Owl Image" />
+            </div>
+            <div class="item">
+                <img src="http://placehold.it/200x200" alt="Owl Image" />
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Include Javascript at the bottom -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Include Owl Carousel javascript -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        //This is where you put your javascript functions
+        $(document).ready(function() {
+            $('.full-width-slider').owlCarousel({
+                loop: true, //set this to true if you need it to loop from the last slide to starting slide
+                nav: true, //set this to true if you need prev/next buttons
+                autoplay: true, //set this to true if you need autoplay
+                autoplayTimeout: 3000, //change the autoplay sliding time 1000 mileseconds = 1 seconds
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1 //when screen size is larger then 1000px, how many items is showing on screen
+                    }
+                }
+            });
+
+            $('.default-slider').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                responsive: {
+                    0: {
+                        items: 6
+                    },
+                    600: {
+                        items: 6
+                    },
+                    1000: {
+                        items: 6
+                    }
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>
